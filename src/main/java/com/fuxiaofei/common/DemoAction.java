@@ -21,5 +21,6 @@ public class DemoAction extends AnAction {
         Project project = e.getProject();
         Messages.showMessageDialog(project, "Hello world!", "Greeting", Messages.getInformationIcon());
         Swagger2MarkupConfig swagger2MarkupConfig = new Swagger2MarkupConfigBuilder().build();
+        System.out.println(swagger2MarkupConfig);
     }
 }

@@ -1,4 +1,9 @@
 <application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="third.party.plugin.action" count="1" />
+    </counts>
+  </component>
   <component name="FUSApplicationUsageTrigger">
     <session id="655482535">
       <usages-collector id="statistics.lifecycle.app">
@@ -9,10 +14,20 @@
       </usages-collector>
       <usages-collector id="statistics.ide.self.update">
         <counts>
-          <entry key="notification.shown" value="1" />
+          <entry key="notification.shown" value="2" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="ShortcutsCollector">
+    <counts>
+      <entry shortcut="Meta+Shift+D" count="1" />
+    </counts>
+  </component>
+  <component name="ToolWindowCollector">
+    <counts>
+      <entry toolWindow="Project by Activation" count="1" />
+    </counts>
   </component>
   <component name="UsageTrigger">
     <counts>

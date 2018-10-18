@@ -375,3 +375,15 @@ java.net.UnknownHostException: ea-engine.labs.intellij.net
 	at java.lang.Thread.run(Thread.java:745)
 2018-10-18 20:21:28,106 [ 127062]   WARN - dea.updater.SdkComponentSource - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/repository2-1.xml': connect timed out 
 2018-10-18 20:23:50,433 [ 269389]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-10-18 20:24:10,441 [ 289397]   INFO - dea.updater.SdkComponentSource - IOException: https://dl.google.com/android/repository/addons_list-3.xml 
+2018-10-18 20:24:10,441 [ 289397]   INFO - dea.updater.SdkComponentSource - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-3.xml': connect timed out 
+2018-10-18 20:24:10,444 [ 289400]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-2.xml 
+2018-10-18 20:24:30,453 [ 309409]   INFO - dea.updater.SdkComponentSource - IOException: https://dl.google.com/android/repository/addons_list-2.xml 
+2018-10-18 20:24:30,455 [ 309411]   INFO - dea.updater.SdkComponentSource - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-2.xml': connect timed out 
+2018-10-18 20:24:30,455 [ 309411]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-1.xml 
+2018-10-18 20:24:50,463 [ 329419]   INFO - dea.updater.SdkComponentSource - IOException: https://dl.google.com/android/repository/addons_list-1.xml 
+2018-10-18 20:24:50,464 [ 329420]   INFO - dea.updater.SdkComponentSource - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-1.xml': connect timed out 
+2018-10-18 20:24:50,464 [ 329420]   WARN - dea.updater.SdkComponentSource - Failed to download any source lists! 
+2018-10-18 20:24:50,465 [ 329421]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2018-10-18 20:25:15,479 [ 354435]   WARN - dea.updater.SdkComponentSource - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/repository2-1.xml': connect timed out 
+2018-10-18 20:28:58,450 [ 577406]   INFO -   #com.intellij.util.Restarter - not supported: not a bundle: /Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1 
