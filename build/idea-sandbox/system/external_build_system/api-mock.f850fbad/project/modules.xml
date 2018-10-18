@@ -1,7 +1,0 @@
-<project>
-  <component name="ExternalModuleListStorage">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/api-mock.iml" filepath="$PROJECT_DIR$/api-mock.iml" />
-    </modules>
-  </component>
-</project>
