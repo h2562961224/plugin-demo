@@ -1,0 +1,41 @@
+2018-10-18 20:20:01,421 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2018-10-18 20:20:01,421 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar:/Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/optimizedFileManager.jar
+2018-10-18 20:20:01,833 [    412]   INFO - til.internal.PlatformDependent - Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2018-10-18 20:20:02,478 [   1057]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 863 ms
+2018-10-18 20:20:02,813 [   1392]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /Volumes/work/projects/IdeaProjects/api-mock/api-mock, global options path = /Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/config/options
+2018-10-18 20:20:03,627 [   2206]   INFO - serialization.JpsProjectLoader - External project config dir is used: /Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/system/external_build_system/api-mock.f850fbad/project
+2018-10-18 20:20:03,657 [   2236]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/system/external_build_system/api-mock.f850fbad/modules
+2018-10-18 20:20:03,778 [   2357]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 965 ms
+2018-10-18 20:20:03,779 [   2358]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 97 libraries
+2018-10-18 20:20:04,115 [   2694]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2018-10-18 20:20:04,591 [   3170]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:true; isMake:false parallel compilation:false
+2018-10-18 20:20:04,598 [   3177]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled: true
+2018-10-18 20:20:04,647 [   3226]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2018-10-18 20:20:04,692 [   3271]   INFO - s.index.CompilerReferenceIndex - backward reference index version differ due to: class java.io.FileNotFoundException
+2018-10-18 20:20:04,939 [   3518]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 14 ms
+2018-10-18 20:20:06,389 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2018-10-18 20:20:06,390 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar:/Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/optimizedFileManager.jar
+2018-10-18 20:20:06,587 [    198]   INFO - til.internal.PlatformDependent - Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2018-10-18 20:20:07,252 [    863]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 783 ms
+2018-10-18 20:20:07,605 [   1216]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /Volumes/work/projects/IdeaProjects/api-mock/api-mock, global options path = /Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/config/options
+2018-10-18 20:20:08,513 [   2124]   INFO - serialization.JpsProjectLoader - External project config dir is used: /Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/system/external_build_system/api-mock.f850fbad/project
+2018-10-18 20:20:08,522 [   2133]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/system/external_build_system/api-mock.f850fbad/modules
+2018-10-18 20:20:08,700 [   2311]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1095 ms
+2018-10-18 20:20:08,700 [   2311]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 97 libraries
+2018-10-18 20:20:09,072 [   2683]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2018-10-18 20:20:09,470 [   3081]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 3089 ms
+2018-10-18 20:20:54,501 [  48112]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2018-10-18 20:20:54,504 [  48115]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled: true
+2018-10-18 20:20:54,511 [  48122]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2018-10-18 20:20:54,548 [  48159]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 3 ms
+2018-10-18 20:20:55,133 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2018-10-18 20:20:55,133 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar:/Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/optimizedFileManager.jar
+2018-10-18 20:20:55,262 [    129]   INFO - til.internal.PlatformDependent - Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2018-10-18 20:20:55,555 [    422]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 382 ms
+2018-10-18 20:20:55,658 [    525]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /Volumes/work/projects/IdeaProjects/api-mock/api-mock, global options path = /Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/config/options
+2018-10-18 20:20:55,908 [    775]   INFO - serialization.JpsProjectLoader - External project config dir is used: /Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/system/external_build_system/api-mock.f850fbad/project
+2018-10-18 20:20:55,917 [    784]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/system/external_build_system/api-mock.f850fbad/modules
+2018-10-18 20:20:55,990 [    857]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 333 ms
+2018-10-18 20:20:55,990 [    857]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 97 libraries
+2018-10-18 20:20:56,074 [    941]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2018-10-18 20:20:56,182 [   1049]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1052 ms

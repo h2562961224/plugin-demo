@@ -1,0 +1,21 @@
+<idea-plugin>
+  <version>1.0-SNAPSHOT</version>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="182.3911" until-build="182.*"/>
+  <id>com.fuxiaofei.common.plugin-demo</id>
+  <name>Plugin display name here</name>
+  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <description>
+    Enter short description for your plugin here.&lt;br&gt;
+    &lt;em&gt;most HTML tags may be used&lt;/em&gt;
+    </description>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <actions>
+    <action id="plugin.demo" class="com.fuxiaofei.common.DemoAction" text="plugin-demo">
+      <add-to-group group-id="ToolsBasicGroup" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift control D"/>
+    </action>
+  </actions>
+</idea-plugin>

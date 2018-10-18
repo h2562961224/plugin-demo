@@ -1,0 +1,31 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="/Volumes/work/projects/IdeaProjects/api-mock/api-mock" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="/Volumes/work/projects/IdeaProjects/api-mock/api-mock" />
+      </list>
+    </option>
+    <option name="lastPath" value="/Volumes/work/projects/IdeaProjects/api-mock/api-mock" />
+    <option name="pid" value="23198" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="/Volumes/work/projects/IdeaProjects/api-mock/api-mock">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3911.36" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539865422539" />
+              <option name="buildTimestamp" value="1533567805654" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,377 @@
+2018-10-18 20:19:21,044 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2018-10-18 20:19:21,092 [     48]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-182.3911.36, 06 Aug 2018 23:21) 
+2018-10-18 20:19:21,092 [     48]   INFO -        #com.intellij.idea.Main - OS: Mac OS X (10.13.5, x86_64) 
+2018-10-18 20:19:21,092 [     48]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-1248-b8 (JetBrains s.r.o) 
+2018-10-18 20:19:21,093 [     49]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b8 (OpenJDK 64-Bit Server VM) 
+2018-10-18 20:19:21,103 [     59]   INFO -        #com.intellij.idea.Main - JVM Args: -Dapple.awt.fileDialogForDirectories=true -Dapple.laf.useScreenMenuBar=true -Didea.classpath.index.enabled=false -Didea.config.path=/Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/plugins -Didea.required.plugins.id=com.fuxiaofei.common.plugin-demo -Didea.smooth.progress=false -Didea.system.path=/Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/system -XX:MaxPermSize=250m -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -ea 
+2018-10-18 20:19:21,103 [     59]   INFO -        #com.intellij.idea.Main - ext: /Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbrex8u152b1248.8_osx_x64/jdk/Contents/Home/jre/lib/ext: [sunec.jar, nashorn.jar, cldrdata.jar, jfxrt.jar, dnsns.jar, localedata.jar, sunjce_provider.jar, meta-index, sunpkcs11.jar, jaccess.jar, zipfs.jar] 
+2018-10-18 20:19:21,103 [     59]   INFO -        #com.intellij.idea.Main - ext: /System/Library/Java/Extensions: [MRJToolkit.jar] 
+2018-10-18 20:19:21,104 [     60]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2018-10-18 20:19:21,120 [     76]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 16 ms 
+2018-10-18 20:19:21,164 [    120]   INFO -        #com.intellij.idea.Main - initializing environment 
+2018-10-18 20:19:21,171 [    127]   INFO - .intellij.util.EnvironmentUtil - loading shell env: /bin/zsh -l -i -c '/Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/bin/printenv.py' '/private/var/folders/6p/tj8qgw8x0cs96gk4wz40fl5w0000gn/T/intellij-shell-env.1.tmp' 
+2018-10-18 20:19:21,404 [    360]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2018-10-18 20:19:21,415 [    371]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 2.0 (JRE-managed HiDPI) 
+2018-10-18 20:19:21,599 [    555]   INFO - .intellij.util.EnvironmentUtil - shell environment loaded (21 vars) 
+2018-10-18 20:19:22,890 [   1846]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@5857a68f[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@eca8280 
+2018-10-18 20:19:23,650 [   2606]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2018-10-18 20:19:24,029 [   2985]   INFO - llij.ide.plugins.PluginManager - 35 plugins initialized in 777 ms 
+2018-10-18 20:19:24,031 [   2987]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Support (10.3.1.2), Ant Support (1.0), Bytecode Viewer (0.1), CVS Integration (11), Copyright (8.1), Coverage (182.3911.36), Eclipse Integration (3.0), EditorConfig (182.3911.36), Git Integration (8.1), GitHub (182.3911.36), Gradle (182.3911.36), Groovy (9.0), I18n for Java (182.3911.36), IDEA CORE (182.3911.36), IntelliLang (8.0), JUnit (1.0), Java Bytecode Decompiler (182.3911.36), Java Stream Debugger (182.3911.36), JavaFX (1.0), Kotlin (1.2.51-release-IJ2018.2-1), Maven Integration (182.3911.36), Mercurial Integration (10.0), Plugin DevKit (1.0), Properties Support (182.3911.36), Settings Repository (182.3911.36), Smali Support (1.0), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), UI Designer (182.3911.36), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (182.3911.36) 
+2018-10-18 20:19:24,031 [   2987]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Plugin display name here (1.0-SNAPSHOT) 
+2018-10-18 20:19:24,810 [   3766]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/Volumes/work/projects/IdeaProjects/plugin/plugin-demo/build/idea-sandbox/system/caches/names.dat' does not exist 
+2018-10-18 20:19:24,812 [   3768]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=435; buffer=10; max=435 
+2018-10-18 20:19:24,851 [   3807]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/bin/mac/fsnotifier 
+2018-10-18 20:19:24,865 [   3821]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2018-10-18 20:19:25,097 [   4053]   INFO - tellij.openapi.util.IconLoader - replace '/nodes/newFolder.png' with 'AllIcons.Nodes.Folder' 
+2018-10-18 20:19:25,470 [   4426]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2018-10-18 20:19:25,470 [   4426]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2018-10-18 20:19:25,770 [   4726]   INFO - j.ide.ui.OptionsTopHitProvider - 146 ms spent to cache options in application 
+2018-10-18 20:19:25,770 [   4726]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.OptionsTopHitProvider$Activity@53ef7078 
+2018-10-18 20:19:25,844 [   4800]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2018-10-18 20:19:25,865 [   4821]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2018-10-18 20:19:25,958 [   4914]   INFO - m.intellij.ui.mac.touchbar.NST - touchbar-server isn't running, skip nst loading 
+2018-10-18 20:19:25,981 [   4937]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2018-10-18 20:19:26,365 [   5321]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:224, number of extensions:47 
+2018-10-18 20:19:26,699 [   5655]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:333 
+2018-10-18 20:19:26,810 [   5766]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:103, number of extensions:49 
+2018-10-18 20:19:26,811 [   5767]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2018-10-18 20:19:27,302 [   6258]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:KJSM,JAVA,HTML,Properties,kotlin_builtins,Kotlin,Groovy,CLASS,XML 
+2018-10-18 20:19:27,600 [   6556]   INFO - plication.impl.ApplicationImpl - 89 application components initialized in 4351ms 
+2018-10-18 20:19:27,638 [   6594]   INFO - .intellij.idea.IdeaApplication - App initialization took 7717 ms 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.kotlin loaded 1095 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.intellij.groovy loaded 367 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.android loaded 282 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.idea.maven loaded 52 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - CVS loaded 40 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.settingsRepository loaded 31 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - com.intellij.properties loaded 28 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - XPathView loaded 24 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - com.intellij.tasks loaded 21 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - Git4Idea loaded 19 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - AntSupport loaded 16 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.yaml loaded 15 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.javaFX loaded 14 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - hg4idea loaded 13 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - Subversion loaded 13 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - com.intellij.uiDesigner loaded 10 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - DevKit loaded 8 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.gradle loaded 8 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - com.android.tools.idea.smali loaded 5 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.java.decompiler loaded 5 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.intellij.intelliLang loaded 4 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.github loaded 3 classes 
+2018-10-18 20:19:27,639 [   6595]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.idea.eclipse loaded 2 classes 
+2018-10-18 20:19:27,640 [   6596]   INFO - llij.ide.plugins.PluginManager - Coverage loaded 1 classes 
+2018-10-18 20:19:27,640 [   6596]   INFO - llij.ide.plugins.PluginManager - com.intellij.java-i18n loaded 1 classes 
+2018-10-18 20:19:27,640 [   6596]   INFO - llij.ide.plugins.PluginManager - com.intellij.copyright loaded 1 classes 
+2018-10-18 20:19:27,738 [   6694]   INFO - pl$FileIndexDataInitialization - Initialization done:1039 
+2018-10-18 20:19:27,851 [   6807]   INFO - exImpl$StubIndexInitialization - Initialization done:112 
+2018-10-18 20:19:28,509 [   7465]   INFO - pi.util.registry.RegistryValue - Registry value 'java.completion.argument.hints' has changed to 'false" 
+2018-10-18 20:19:28,509 [   7465]   INFO - pi.util.registry.RegistryValue - Registry value 'java.completion.argument.hints.internal' has changed to 'false" 
+2018-10-18 20:19:28,543 [   7499]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2018-10-18 20:19:28,947 [   7903]   INFO - j.ide.ui.OptionsTopHitProvider - 809 ms spent on EDT to cache options in application 
+2018-10-18 20:19:29,243 [   8199]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@9b41fe4 
+2018-10-18 20:19:30,315 [   9271]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@3fada346 
+2018-10-18 20:19:30,661 [   9617]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@492d52a3 
+2018-10-18 20:19:30,664 [   9620]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.actions.GotoClassPresentationUpdater@24250116 
+2018-10-18 20:19:33,627 [  12583]   INFO - ellij.project.impl.ProjectImpl - 20 project components initialized in 189 ms 
+2018-10-18 20:19:47,126 [  26082]   INFO - CompilerWorkspaceConfiguration - Available processors: 4 
+2018-10-18 20:19:47,469 [  26425]   INFO - ellij.project.impl.ProjectImpl - 159 project components initialized in 875 ms 
+2018-10-18 20:19:47,470 [  26426]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2018-10-18 20:19:47,576 [  26532]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2018-10-18 20:19:47,655 [  26611]   WARN - j.ui.mac.MacMainFrameDecorator - no url bundle present. 
+To use platform protocol handler to open external links specify required protocols in the mac app layout section of the build file
+Example: args.urlSchemes = ["your-protocol"] will handle following links: your-protocol://open?file=file&line=line 
+2018-10-18 20:19:48,921 [  27877]   INFO - ntellij.internal.IconsLoadTime - IMG load time: ide_startup=45.19ms, average=0.66ms, median=0.30ms; number of icons: 68 
+2018-10-18 20:19:48,922 [  27878]   INFO - ntellij.internal.IconsLoadTime - SVG load time: ide_startup=401.31ms, average=12.95ms, median=3.70ms; number of icons: 31 
+2018-10-18 20:19:48,953 [  27909]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@746e14dd 
+2018-10-18 20:19:48,956 [  27912]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-10-18 20:19:49,401 [  28357]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 441ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-10-18 20:19:49,403 [  28359]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 219 files to update 
+2018-10-18 20:19:50,014 [  28970]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2018-10-18 20:19:51,084 [  30040]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 2156ms under project opening modal progress 
+2018-10-18 20:19:51,132 [  30088]   INFO - ge.ExternalProjectsDataStorage - Loaded external projects data in 3 millis 
+2018-10-18 20:19:51,181 [  30137]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 2392ms; general responsiveness: ok; EDT responsiveness: 0/2 sluggish, 1/2 very slow 
+2018-10-18 20:19:51,208 [  30164]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 1805ms; general responsiveness: ok; EDT responsiveness: 0/2 sluggish, 1/2 very slow 
+2018-10-18 20:19:51,633 [  30589]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: initial refresh 
+2018-10-18 20:19:52,163 [  31119]   INFO - tartup.impl.StartupManagerImpl - /Volumes/work/projects/IdeaProjects/api-mock/api-mock/.idea case-sensitivity: expected=false actual=false 
+2018-10-18 20:19:52,176 [  31132]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2018-10-18 20:19:52,585 [  31541]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..mock/api-mock 
+2018-10-18 20:19:52,589 [  31545]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+2018-10-18 20:19:52,848 [  31804]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2018-10-18 20:19:52,850 [  31806]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project '/Volumes/work/projects/IdeaProjects/api-mock/api-mock' api-mock 
+2018-10-18 20:19:53,150 [  32106]   INFO - j.ide.ui.OptionsTopHitProvider - 255 ms spent to cache options in project 
+2018-10-18 20:19:53,150 [  32106]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2018-10-18 20:19:53,150 [  32106]   INFO - tartup.impl.StartupManagerImpl - Activity run in 255ms on UI thread 
+2018-10-18 20:19:53,364 [  32320]   INFO - tartup.impl.StartupManagerImpl - GradleJvmStartupActivity run in 102ms on UI thread 
+2018-10-18 20:19:53,537 [  32493]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6959 ms 
+2018-10-18 20:19:53,537 [  32493]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.kotlin loaded 1377 classes 
+2018-10-18 20:19:53,537 [  32493]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.android loaded 1343 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.intellij.groovy loaded 544 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.idea.maven loaded 319 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - com.intellij.uiDesigner loaded 211 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - Git4Idea loaded 134 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.debugger.streams loaded 107 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - com.intellij.tasks loaded 104 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.gradle loaded 95 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - hg4idea loaded 88 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - CVS loaded 81 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - com.intellij.properties loaded 74 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - XPathView loaded 72 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - Subversion loaded 69 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - DevKit loaded 47 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.settingsRepository loaded 37 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.terminal loaded 33 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - AntSupport loaded 33 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.yaml loaded 29 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.javaFX loaded 23 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.plugins.github loaded 22 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - Coverage loaded 19 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.editorconfig.editorconfigjetbrains loaded 16 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.idea.eclipse loaded 9 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - JUnit loaded 9 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - TestNG-J loaded 9 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - com.intellij.copyright loaded 8 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - com.intellij.java-i18n loaded 7 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.jetbrains.java.decompiler loaded 7 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - org.intellij.intelliLang loaded 5 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - com.android.tools.idea.smali loaded 5 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - XSLT-Debugger loaded 4 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - ByteCodeViewer loaded 2 classes 
+2018-10-18 20:19:53,538 [  32494]   INFO - llij.ide.plugins.PluginManager - com.fuxiaofei.common.plugin-demo loaded 1 classes 
+2018-10-18 20:19:53,981 [  32937]   INFO - j.ide.ui.OptionsTopHitProvider - 242 ms spent on EDT to cache options in project 
+2018-10-18 20:19:54,105 [  33061]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@66c0b7fe 
+2018-10-18 20:19:54,173 [  33129]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@13002913 
+2018-10-18 20:19:54,255 [  33211]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2018-10-18 20:19:54,256 [  33212]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project '/Volumes/work/projects/IdeaProjects/api-mock/api-mock' api-mock 
+2018-10-18 20:19:54,346 [  33302]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@7a0dacec 
+2018-10-18 20:19:54,514 [  33470]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2018-10-18 20:19:54,515 [  33471]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project '/Volumes/work/projects/IdeaProjects/api-mock/api-mock' api-mock 
+2018-10-18 20:19:54,762 [  33718]   INFO - ntellij.internal.IconsLoadTime - IMG load time: total=117.06ms, average=1.17ms, median=0.96ms; number of icons: 100 
+2018-10-18 20:19:59,656 [  38612]   INFO - penapi.project.DumbServiceImpl - cancel com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$3@522dace7 
+2018-10-18 20:19:59,792 [  38748]   INFO - .script.IdeScriptEngineManager - javax.script.ScriptEngineManager initialized in 43 ms 
+2018-10-18 20:19:59,892 [  38848]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@20172148 
+2018-10-18 20:19:59,937 [  38893]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 44ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-10-18 20:20:01,412 [  40368]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar:/Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/optimizedFileManager.jar 
+2018-10-18 20:20:01,666 [  40622]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-10-18 20:20:01,666 [  40622]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-10-18 20:20:01,669 [  40625]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-10-18 20:20:05,367 [  44323]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2018-10-18 20:20:06,381 [  45337]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar:/Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/optimizedFileManager.jar 
+2018-10-18 20:20:06,497 [  45453]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-10-18 20:20:06,498 [  45454]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-10-18 20:20:06,499 [  45455]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-10-18 20:20:06,670 [  45626]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 6733ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-10-18 20:20:06,694 [  45650]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 72851 files to update 
+2018-10-18 20:20:07,879 [  46835]   INFO - dea.updater.SdkComponentSource - File /Users/huxiaohui/.android/repositories.cfg could not be loaded. 
+2018-10-18 20:20:07,896 [  46852]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-10-18 20:20:27,062 [  66018]   INFO - .openapi.util.LowMemoryWatcher - Low memory signal received: afterGc=false 
+2018-10-18 20:20:27,985 [  66941]   INFO - dea.updater.SdkComponentSource - IOException: https://dl.google.com/android/repository/addons_list-3.xml 
+2018-10-18 20:20:27,985 [  66941]   INFO - dea.updater.SdkComponentSource - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-3.xml': connect timed out 
+2018-10-18 20:20:27,986 [  66942]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-2.xml 
+2018-10-18 20:20:47,991 [  86947]   INFO - dea.updater.SdkComponentSource - IOException: https://dl.google.com/android/repository/addons_list-2.xml 
+2018-10-18 20:20:47,992 [  86948]   INFO - dea.updater.SdkComponentSource - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-2.xml': connect timed out 
+2018-10-18 20:20:47,993 [  86949]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-1.xml 
+2018-10-18 20:20:49,210 [  88166]   INFO - .openapi.util.LowMemoryWatcher - Low memory signal received: afterGc=false 
+2018-10-18 20:20:54,197 [  93153]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 47503ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-10-18 20:20:54,198 [  93154]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2018-10-18 20:20:54,199 [  93155]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project '/Volumes/work/projects/IdeaProjects/api-mock/api-mock' api-mock 
+2018-10-18 20:20:54,410 [  93366]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile /Volumes/work/projects/IdeaProjects/api-mock/api-mock 
+2018-10-18 20:20:54,625 [  93581]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2018-10-18 20:20:55,130 [  94086]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar:/Users/huxiaohui/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.2.1/d14ace6f562c2e562803295282a563fa37d2d243/ideaIC-2018.2.1/lib/optimizedFileManager.jar 
+2018-10-18 20:20:55,193 [  94149]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-10-18 20:20:55,194 [  94150]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-10-18 20:20:55,194 [  94150]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-10-18 20:20:55,545 [  94501]   INFO -       ScriptTemplatesProviders - [kts] loading script definitions [] using cp:  
+2018-10-18 20:21:08,003 [ 106959]   INFO - dea.updater.SdkComponentSource - IOException: https://dl.google.com/android/repository/addons_list-1.xml 
+2018-10-18 20:21:08,005 [ 106961]   INFO - dea.updater.SdkComponentSource - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-1.xml': connect timed out 
+2018-10-18 20:21:08,006 [ 106962]   WARN - dea.updater.SdkComponentSource - Failed to download any source lists! 
+2018-10-18 20:21:08,008 [ 106964]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2018-10-18 20:21:10,204 [ 109160]   WARN - dvertisement.PluginsAdvertiser - connect timed out 
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:558)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:329)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:338)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:356)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:349)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser$2.process(PluginsAdvertiser.java:103)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser$2.process(PluginsAdvertiser.java:100)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:475)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:451)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:303)
+	at com.intellij.util.io.RequestBuilder.connect(RequestBuilder.java:56)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser.processFeatureRequest(PluginsAdvertiser.java:156)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser.loadSupportedExtensions(PluginsAdvertiser.java:99)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser.access$200(PluginsAdvertiser.java:51)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser$4.run(PluginsAdvertiser.java:306)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-10-18 20:21:19,841 [ 118797]  ERROR - llij.ide.plugins.PluginManager - java.lang.ClassNotFoundException: org.apache.commons.configuration2.PropertiesConfiguration 
+org.apache.commons.configuration2.ex.ConfigurationRuntimeException: java.lang.ClassNotFoundException: org.apache.commons.configuration2.PropertiesConfiguration
+	at org.apache.commons.configuration2.beanutils.BeanHelper.fetchBeanClass(BeanHelper.java:549)
+	at org.apache.commons.configuration2.beanutils.BeanHelper.createBeanCreationContext(BeanHelper.java:616)
+	at org.apache.commons.configuration2.beanutils.BeanHelper.createBean(BeanHelper.java:456)
+	at org.apache.commons.configuration2.beanutils.BeanHelper.createBean(BeanHelper.java:479)
+	at org.apache.commons.configuration2.beanutils.BeanHelper.createBean(BeanHelper.java:492)
+	at org.apache.commons.configuration2.builder.BasicConfigurationBuilder.createResultInstance(BasicConfigurationBuilder.java:447)
+	at org.apache.commons.configuration2.builder.BasicConfigurationBuilder.createResult(BasicConfigurationBuilder.java:417)
+	at org.apache.commons.configuration2.builder.BasicConfigurationBuilder.getConfiguration(BasicConfigurationBuilder.java:285)
+	at org.apache.commons.configuration2.builder.fluent.Configurations.properties(Configurations.java:318)
+	at io.github.swagger2markup.builder.Swagger2MarkupConfigBuilder.getDefaultConfiguration(Swagger2MarkupConfigBuilder.java:135)
+	at io.github.swagger2markup.builder.Swagger2MarkupConfigBuilder.<init>(Swagger2MarkupConfigBuilder.java:74)
+	at io.github.swagger2markup.builder.Swagger2MarkupConfigBuilder.<init>(Swagger2MarkupConfigBuilder.java:59)
+	at com.fuxiaofei.common.DemoAction.actionPerformed(DemoAction.java:23)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:220)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:237)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher$1.performAction(IdeKeyEventDispatcher.java:620)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.lambda$processAction$2(IdeKeyEventDispatcher.java:669)
+	at com.intellij.openapi.application.TransactionGuardImpl.performUserActivity(TransactionGuardImpl.java:195)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction(IdeKeyEventDispatcher.java:668)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processActionOrWaitSecondStroke(IdeKeyEventDispatcher.java:520)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.inInitState(IdeKeyEventDispatcher.java:475)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.dispatchKeyEvent(IdeKeyEventDispatcher.java:212)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:382)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.configuration2.PropertiesConfiguration
+	at com.intellij.util.lang.UrlClassLoader.findClass(UrlClassLoader.java:224)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:909)
+	at org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:975)
+	at org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:958)
+	at org.apache.commons.configuration2.beanutils.BeanHelper.loadClass(BeanHelper.java:507)
+	at org.apache.commons.configuration2.beanutils.BeanHelper.fetchBeanClass(BeanHelper.java:545)
+	... 29 more
+2018-10-18 20:21:19,842 [ 118798]  ERROR - llij.ide.plugins.PluginManager - IntelliJ IDEA 2018.2.1  Build #IC-182.3911.36 
+2018-10-18 20:21:19,842 [ 118798]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_152-release 
+2018-10-18 20:21:19,842 [ 118798]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+2018-10-18 20:21:19,842 [ 118798]  ERROR - llij.ide.plugins.PluginManager - Vendor: JetBrains s.r.o 
+2018-10-18 20:21:19,842 [ 118798]  ERROR - llij.ide.plugins.PluginManager - OS: Mac OS X 
+2018-10-18 20:21:19,842 [ 118798]  ERROR - llij.ide.plugins.PluginManager - Last Action: plugin.demo 
+2018-10-18 20:21:20,213 [ 119169]   WARN - dvertisement.PluginsAdvertiser - connect timed out 
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:558)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:329)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:338)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:356)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:349)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser$1.process(PluginsAdvertiser.java:75)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser$1.process(PluginsAdvertiser.java:72)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:475)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:451)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:303)
+	at com.intellij.util.io.RequestBuilder.connect(RequestBuilder.java:56)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser.processFeatureRequest(PluginsAdvertiser.java:156)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser.retrieve(PluginsAdvertiser.java:69)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser$4.run(PluginsAdvertiser.java:313)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-10-18 20:21:23,516 [ 122472]   WARN - lij.diagnostic.IdeErrorsDialog - ea-engine.labs.intellij.net 
+java.net.UnknownHostException: ea-engine.labs.intellij.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:558)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:329)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:338)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:356)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:349)
+	at com.intellij.diagnostic.ITNProxy.lambda$fetchDevelopers$1(ITNProxy.java:105)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:475)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:451)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:303)
+	at com.intellij.diagnostic.ITNProxy.fetchDevelopers(ITNProxy.java:100)
+	at com.intellij.diagnostic.IdeErrorsDialog$1.run(IdeErrorsDialog.java:132)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:736)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:395)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-10-18 20:21:28,106 [ 127062]   WARN - dea.updater.SdkComponentSource - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/repository2-1.xml': connect timed out 
+2018-10-18 20:23:50,433 [ 269389]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
